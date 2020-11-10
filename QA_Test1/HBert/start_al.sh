@@ -20,5 +20,5 @@ python run_squad.py \
   --max_answer_length 508 \
   --n_best_size 20 \
   --doc_stride 192 \
-  --output_dir output_DRCD_albert_400_R5 \
-  --save_steps 10000
+  --output_dir output_bert_200_R5 \
+  --save_steps 10000git 
