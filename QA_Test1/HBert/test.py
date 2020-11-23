@@ -9,8 +9,8 @@
 import lawrouge
 import os
 
-gold_list = ['王福財於民國99年間經友人介紹及由電腦網際網路認識當時就讀國中1年級之A女，並自同年8月間起2人進而交往成為男女朋友。詎王福財知A女真實年齡係14歲以上，未滿16歲之女子，且縱使A女同意為性行為，亦不得與A女為之，卻仍基於對於14歲以上未滿16歲女子性交之犯意，在未違反A女意願之情況下，分別於100年3月21日上午某時、100年4月6日上午6時40分許，在其位於臺南市○○區○○路3段720巷10號住處房間內，以其陰莖插入A女陰道內之方式，對A女為性交行為2次。嗣因A女之母代號0000-000000A察覺A女行動電話費用暴增有異，經追問緣由，始查悉上情。']
-pred_list = ['於100年3月21日上午某時、100年4月6日上午6時40分許，在其位於臺南市○○區○○路3段720巷10號住處房間內，以其陰莖插入A女陰道內之方式，對A女為性交行為2次。嗣因A女之母代號0000-000000A察覺A女行動電話費用暴增有異，經追問緣由，始查悉上情。']
+gold_list = ['你是白癡嗎']
+pred_list = ['你是白癡嗎']
 
 files_rouge = lawrouge.FoldersRouge()
 scores = files_rouge.get_scores(pred_list, gold_list, avg=True)
